@@ -616,20 +616,6 @@ int main()
 }
 
 /*
-TODO:
-- make it connect to the controller  ____________________________________________________DONE
-- detect its inputs _____________________________________________________________________DONE
-- make it press the keyboard or mouse or move with those inputs _________________________DONE
-- make it stop when "windows key" is pressed_____________________________________________DONE
-- make it work from just the exe without installing the dll file or anything liek that___DONE
-- add multithreading to make it run in the background/faster_____________________________UNNECECARY
-- add a GUI
-- make it so it can be used for any controller (and any input)
-- make it so that it can use multiple controllers
-- make it so that there are "configurations" (like what the buttons do)
-- make the configurations saveable and loadable
-*/
-/*
 VK_LBUTTON 	0x01 	Left mouse button
 VK_RBUTTON 	0x02 	Right mouse button
 VK_CANCEL 	0x03 	Control-break processing
