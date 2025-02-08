@@ -10,7 +10,7 @@
 #include <Xinput.h>  // Xbox controller
 
 /*
-CONTRIL SCHEME:
+CONTROL SCHEME:
 left stick - WASD
 right stick - Mouse movment
 Left sholder - right click
@@ -31,7 +31,7 @@ Dpad left - F2
 Dpad right - T
 Windows key - end program
 Capslock - (disables the controller*, when testing i discovered that when the program is active, if you try to move your character in minecraft with WASD it dowsnt work, so if you turn on capslock it toggles it to keyboard mode where that works but the controller doesnt work (if somethign weird is going on try pressing capslock 2x))
-
+CURRENTLY THIS ONLY SUPPORTS xBOX CONTROLLERS ON WINDOWS
 */
 typedef struct // make this structure so I can return multiple values becasue C does not allow multiple values to be returned
 {
